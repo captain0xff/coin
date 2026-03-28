@@ -905,6 +905,7 @@ unset(COIN_INTERNAL_DOCUMENTATION_FILES CACHE)
 
 add_subdirectory(include)
 add_subdirectory(data)
+add_compile_definitions(UNICODE _UNICODE)
 add_subdirectory(src)
 
 if (COIN_BUILD_EXAMPLES)
